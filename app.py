@@ -14,6 +14,7 @@ from sqlalchemy import Numeric
 
 
 app = Flask(__name__)
+app.config.from_object(Config)
 CORS(app)
 
 # Database Configuration
