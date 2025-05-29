@@ -1,0 +1,3 @@
+DATABASE_URL=mysql://root:Riju@localhost/finance_tracker
+SECRET_KEY=your-secret-key-here
+FLASK_ENV=development
